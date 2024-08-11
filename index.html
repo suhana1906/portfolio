@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- animation -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <img src="./images/img1.png" alt="" class="logo">
+            <ul>
+                <li class="listitem"> <a class="links" href="#home">Home</a></li>
+                <li class="listitem"> <a class="links" href="#about">About</a></li>
+                <li class="listitem"> <a class="links" href="#skill">Skills</a></li>
+                <li class="listitem"> <a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- contents -->
+            <div class="homecontents">
+                <h1 class="animate__animated animate__bounceInDown" id="username">I'm Anna <span id="lname">Stella</span></h1>
+                <p id="userdetails"> This is my official portfolio website to describe all <br> my details and work experience in web development
+                </p>
+                <a id="download" href="">Download CV</a>
+            </div>
+            <!-- images -->
+            <div class="homeimages">
+                <!-- shape -->
+                <img src="./images/shape.png" alt="shape" class="group1" id="shape">
+                <img src="./images/girl.png" alt="girl" class="group1" id="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img class="img1" src="./images/about.jpg" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, laboriosam recusandae sit atque, asperiores ex tenetur voluptate saepe quae reprehenderit obcaecati optio ab quo, temporibus officia corporis ducimus sapiente alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae blanditiis cumque earum exercitationem facere maxime enim ex perferendis perspiciatis quaerat corrupti, veniam eos eum possimus praesentium nisi libero, cum voluptatem!</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Anna Steel</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8281647024</span>
+                        </div><div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>annasteel@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!-- html bar -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="bapercent"> 91%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar"></div>
+                    </div>
+                    <!-- css bar -->
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="bapercent"> 85%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar"></div>
+                    </div>
+                    <!-- js bar -->
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="bapercent"> 86%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar"></div>
+                    </div>
+                    <!-- react bar -->
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="bapercent"> 89%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-up-left"  class="skillimg">
+                    <img class="img2" src="./images/skills.jpeg" alt="skill">
+                </div>
+            </div>
+        </section>
+        <br> <br>
+        <br>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contact</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <!-- icons -->
+            <div class="iconsCollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- instgram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/suhana-shihab-b7b897282/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+            </div>
+
+
+
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; My Portfolio Website-june 2024,All rights reserved to &reg; Anna Steel</p>
+            <div class="icon upArrow"  >
+                <a href="#container" ><i class="fa-solid fa-angle-up brands"></i></a>
+            </div> 
+        </footer>
+        
+        
+
+    </div>
+</body>
+<!-- aos animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
